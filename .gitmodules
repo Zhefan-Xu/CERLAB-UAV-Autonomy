@@ -1,0 +1,27 @@
+[submodule "autonomous_flight"]
+	path = autonomous_flight
+	url = https://github.com/Zhefan-Xu/autonomous_flight.git
+[submodule "global_planner"]
+	path = global_planner
+	url = https://github.com/Zhefan-Xu/global_planner.git
+[submodule "uav_simulator"]
+	path = uav_simulator
+	url = https://github.com/Zhefan-Xu/uav_simulator.git
+[submodule "trajectory_planner"]
+	path = trajectory_planner
+	url = https://github.com/Zhefan-Xu/trajectory_planner.git
+[submodule "map_manager"]
+	path = map_manager
+	url = https://github.com/Zhefan-Xu/map_manager.git
+[submodule "time_optimizer"]
+	path = time_optimizer
+	url = https://github.com/Zhefan-Xu/time_optimizer.git
+[submodule "tracking_controller"]
+	path = tracking_controller
+	url = https://github.com/Zhefan-Xu/tracking_controller.git
+[submodule "onboard_detector"]
+	path = onboard_detector
+	url = https://github.com/Zhefan-Xu/onboard_detector.git
+[submodule "remote_control"]
+	path = remote_control
+	url = https://github.com/Zhefan-Xu/remote_control.git
