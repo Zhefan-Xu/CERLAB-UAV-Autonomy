@@ -21,7 +21,7 @@ cd ~/catkin_ws
 catkin_make
 ```
 ## II. Run Autonomy DEMO
-There are several autonomous flight tasks that this repo can accomplish and here we show the most typical ones: **navigation**, **exploration**, and **inspection**:
+There are several autonomous flight tasks that this repo can accomplish and here we show the most typical ones: **navigation**, **exploration**, and **inspection**.
 
 a. **Autonomous Navigation:**  
 
