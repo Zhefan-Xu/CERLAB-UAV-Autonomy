@@ -160,7 +160,7 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/4878fc3a-528d-4
 
 
 
-## V. Citation and Reference:
+## V. Citation and Reference
 If you find this work useful, please consider to cite our papers:
 - Zhefan Xu\*, Xiaoyang Zhan\*, Yumeng Xiu, Christopher Suzuki, Kenji Shimada, "Onboard dynamic-object detection and tracking for autonomous robot navigation with RGB-D camera”, IEEE Robotics and Automation Letters (RA-L), 2024. [\[paper\]](https://ieeexplore.ieee.org/document/10323166) [\[video\]](https://youtu.be/9dKX3BRnxyw).
 - Zhefan Xu\*, Christopher Suzuki\*, Xiaoyang Zhan, Kenji Shimada, "Heuristic-based Incremental Probabilistic Roadmap for Efficient UAV Exploration in Dynamic Environments”, arxiv, 2023. [\[paper\]](https://arxiv.org/pdf/2303.00132.pdf) [\[video\]](https://youtu.be/fjVJCgDemjc?si=9nsWhReMeJH5JC3Q).
@@ -170,6 +170,9 @@ If you find this work useful, please consider to cite our papers:
 - Zhefan Xu, Yumeng Xiu, Xiaoyang Zhan, Baihan Chen, and Kenji Shimada, “Vision-aided UAV Navigation and Dynamic Obstacle Avoidance using Gradient-based B-spline Trajectory Optimization”, IEEE International Conference on Robotics and Automation (ICRA), 2023. [\[paper\]](https://ieeexplore.ieee.org/abstract/document/10160638) [\[video\]](https://youtu.be/xlMAL8aBHHg?si=4E5vShz7spxZDzps)
 - Zhefan Xu, Di Deng, and Kenji Shimada, “Autonomous UAV Exploration of Dynamic Environments via Incremental Sampling and Probabilistic Roadmap”, IEEE Robotics and Automation Letters (RA-L), 2021. [\[paper\]](https://ieeexplore.ieee.org/document/9362184) [\[video\]](https://youtu.be/ileyP4DRBjU?si=KFJLt-rLCa3tFaRH)
 
-## VI. Write at the End
+## VI. Acknowledgement
+The author would like to express his sincere gratitude to Professor Kenji Shimada for his great support and all CERLAB UAV team members who contributes to this repository.
+
+## VII. Write at the End
 This repository concludes my first two-year Ph.D. work at CMU, and I would like to share it to contribute to the autonomous UAV research community. At the beginning, I truly felt the frustration as an autonomous robot researcher due to the lack of a comprehensive development framework. As a result, I hope my code can provide researchers a comprehensive and easy-to-understand platform and let them focus on algorithm/theory design instead of the software pipeline. In the meanwhile, this research and developed framework are not perfect and can be further improved; <ins>**thus, I am actively looking for collaborators in research and development to improve the UAV/robot autonomy level. Please don't hesitate to reach out for potential collaboration!**<ins>
 
