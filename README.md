@@ -16,6 +16,11 @@ sudo apt install ros-${ROS_DISTRO}-octomap* && sudo apt install ros-${ROS_DISTRO
 cd ~/catkin_ws/src
 git clone --recursive https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy.git
 
+# optional: switch to simulation branch for autonomous_flight
+# the default branch is for real flight and PX4 simulation
+cd path/to/autonomous_flight
+git checkout simulation
+
 # step 3: follow the standard catkin_make procedure
 cd ~/catkin_ws
 catkin_make
@@ -34,7 +39,7 @@ cd ~/catkin_ws
 catkin_make
 ```
 
-b. **Autonomous Navigation:**  Navigating to a given goal position (by clicking the ```2D Nav Goal``` in Rviz ) and avoiding collisions.    
+b. **Autonomous Navigation:**  Navigating to a given goal position and avoiding collisions.    
 
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-43d0-a02c-8defa8eea12c
