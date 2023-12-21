@@ -32,7 +32,8 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-4
 b. **Autonomous Exploration:**
 
 
-Uploading exploration_demo.mp4…
+https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/e0d953de-a542-49c3-86ca-b44d77ff7653
+
 
 
 c. **Autonomous Inspection:**
