@@ -146,15 +146,15 @@ Once you have tested the flight in the PX4 simulation, the real flight experimen
 Check all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight)  accordingly before the actual flight!!!
 
 ### c. Examples of Real Flight Experiments
-a. The example of real flight for autonomous navigation:
+a. The example of real flight experiment for **autonomous navigation**:
   
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/f635a4c9-6996-44d2-85fe-5fecaed33054
 
-b. The example of real flight for autonomous exploration:
+b. The example of real flight experiment for **autonomous exploration**:
   
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/ea838535-b052-4713-b1b2-4690bf4a7369
 
-c. The example of real flight for autonomous inspection:
+c. The example of real flight experiment for **autonomous inspection**:
   
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/4878fc3a-528d-4c82-a621-71ffadc092ab
 
