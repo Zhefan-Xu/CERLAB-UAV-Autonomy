@@ -28,7 +28,7 @@ catkin_make
 ## II. Run Autonomy DEMO
 This section shows the most typical ones: **navigation**, **exploration**, and **inspection**. Note that the default environment and the flight parameters might be different from the demos shown as below. Please check [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator) for changing the simulation environments and [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for adjusting flight parameters.
 
-a. Before getting started, please make sure you are in the ```simulation``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check the link for detailed explanations):
+Before getting started, please make sure you are in the ```simulation``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check the link for detailed explanations):
 ```
 cd path/to/autonomous_flight
 git branch
@@ -39,7 +39,7 @@ cd ~/catkin_ws
 catkin_make
 ```
 
-b. **Autonomous Navigation:**  Navigating to a given goal position and avoiding collisions.    
+### a. **Autonomous Navigation:**  Navigating to a given goal position and avoiding collisions.    
 
 ```
 # start simulator
@@ -65,14 +65,25 @@ Once the robot is hovering at the predefined height (check the terminal output m
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-43d0-a02c-8defa8eea12c
 
 
-c. **Autonomous Exploration:**
+### b. **Autonomous Exploration: Exploraing an unknown environments and create a map.**
 
+```
+# start simulator
+roslaunch uav_simulator start.launch
+
+# open the Rviz visualization
+roslaunch remote_control exploration.rviz 
+
+# run the navigation program
+roslaunch autonomous_flight dynamic_exploration.launch
+
+The example exploration process is shown in the video demo as below:
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/e0d953de-a542-49c3-86ca-b44d77ff7653
 
 
 
-d. **Autonomous Inspection:**
+### c. **Autonomous Inspection: Navigating toward the given target and inspecting by zig-zag path.**
 
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/0e580d08-7003-4732-a5b0-5d4041f7d3fd
