@@ -25,6 +25,10 @@ There are several autonomous flight tasks that this repo can accomplish and here
 
 a. **Autonomous Navigation:**  
 
+
+https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-43d0-a02c-8defa8eea12c
+
+
 b. **Autonomous Exploration:**
 
 c. **Autonomous Inspection:**
