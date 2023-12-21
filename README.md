@@ -34,7 +34,7 @@ cd ~/catkin_ws
 catkin_make
 ```
 
-b. **Autonomous Navigation:**  
+b. **Autonomous Navigation:**  Navigating to a given goal position (by clicking the ```2D Nav Goal``` in Rviz ) and avoiding collisions.    
 
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-43d0-a02c-8defa8eea12c
