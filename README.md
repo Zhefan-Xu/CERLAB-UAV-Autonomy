@@ -101,7 +101,7 @@ The example inspection process is shown in the video demo as below:
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/0e580d08-7003-4732-a5b0-5d4041f7d3fd
 
 
-## III. Real Flight & PX4 Simulation
+## III. PX4 Simulation & Real Flight 
 This section talks about running this framework in the PX4-based simulation or conducting real flight experiments. Please first follow the PX4 simulation installation guide as provided in [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator).
 
 Before getting started, please make sure you are in the ```px4``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check the link for detailed explanations):
@@ -116,11 +116,17 @@ catkin_make
 ```
 
 ### a. PX4 Simulation Experiments
-  The purpose of having another PX4 simulation (besides the simulator we have shown in the previous section) is to simulate **ALL** behaviors that we might encounter in the real flight. To run the same demos in the previous section, the only change we need to do is to run the following command to start the simulator instead.
+The purpose of having another PX4 simulation (besides the simulator we have shown in the previous section) is to simulate **ALL** behaviors that we might encounter in the real flight. To run the same demos in the previous section, the only change we need to do is to run the following command to start the simulator instead.
 ```
 # start PX4 simulator
 roslaunch uav_simulator px4_start.launch
 ```
+
+### a. Real Flight Experiments
+Once you have tested the autonomous flight in the PX4 simulation, the real flight experiments will have exactly the same behavior as you saw in the simulation. The inputs required for this framework in the real flight experiments are:
+ - ```The robot pose/odom```: Please make sure you have a SLAM/VIO system that can estimate the states of the robot.
+ - ```The depth image```: The framework expects the depth image to detect objects and construct the map.
+Please be very careful about all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) and check all the parameters accordingly before the actual flight.
 
 
 ## IV. The Autonomy Modules
