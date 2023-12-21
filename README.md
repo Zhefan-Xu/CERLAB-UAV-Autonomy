@@ -23,30 +23,42 @@ catkin_make
 ## II. Run Autonomy DEMO
 There are several autonomous flight tasks that this repo can accomplish and here we show the most typical ones: **navigation**, **exploration**, and **inspection**. Please note that the default environment and the flight parameters might be different from the demo shown as below. Please check [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator) for how to change a simulation environment and [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for adjusting flight parameters.
 
-a. **Autonomous Navigation:**  
+a. Before start, please make sure you are in the ```simulation``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for detailed explanations):
+```
+cd path/to/autonomous_flight
+git branch
+
+# if the output says you are not in the simulation branch, please run the following (otherwise please ignore): 
+git checkout simulation
+cd ~/catkin_ws
+catkin_make
+```
+
+b. **Autonomous Navigation:**  
 
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-43d0-a02c-8defa8eea12c
 
 
-b. **Autonomous Exploration:**
+c. **Autonomous Exploration:**
 
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/e0d953de-a542-49c3-86ca-b44d77ff7653
 
 
 
-c. **Autonomous Inspection:**
+d. **Autonomous Inspection:**
 
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/0e580d08-7003-4732-a5b0-5d4041f7d3fd
 
 
+## III. Real Flight & PX4 Simulation
 
-## III. The Autonomy Modules
+## IV. The Autonomy Modules
 This section introduces the funtionality of each autonomy module included in this framework and provides their links for further details.
 
-## IV. Citation and Reference:
+## V. Citation and Reference:
 If you find this work useful, please cite the paper:
 ```
 @inproceedings{xu2023vision,
