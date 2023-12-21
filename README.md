@@ -85,6 +85,18 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/e0d953de-a542-4
 
 ### c. **Autonomous Inspection: Navigating to the target and inspecting it with a zig-zag path.**
 
+```
+# start simulator
+roslaunch uav_simulator start.launch
+
+# open the Rviz visualization
+roslaunch remote_control inspection.rviz 
+
+# run the navigation program
+roslaunch autonomous_flight dynamic_inspection.launch
+```
+
+The example inspection process is shown in the video demo as below:
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/0e580d08-7003-4732-a5b0-5d4041f7d3fd
 
