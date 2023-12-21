@@ -33,7 +33,7 @@ c. **Autonomous Inspection:**
 ## III. The Autonomy Modules
 
 
-## VI. Citation and Reference:
+## IV. Citation and Reference:
 If you find this work useful, please cite the paper:
 ```
 @inproceedings{xu2023vision,
