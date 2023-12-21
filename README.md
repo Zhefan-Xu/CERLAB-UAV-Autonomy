@@ -132,7 +132,7 @@ Check all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu
 
 
 ## IV. The Autonomy Modules
-This section introduces the funtionality of each autonomy module included in this framework and provides their links for further details.
+This section introduces the funtionality of each autonomy module included in this framework.
 
 ## V. Citation and Reference:
 If you find this work useful, please cite the paper:
