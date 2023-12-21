@@ -115,6 +115,14 @@ cd ~/catkin_ws
 catkin_make
 ```
 
+### a. PX4 Simulation Experiments
+  The purpose of having another PX4 simulation (besides the simulator we have shown in the previous section) is to simulate **ALL** behaviors that we might encounter in the real flight. To run the same demos in the previous section, the only change we need to do is to run the following command to start the simulator instead.
+```
+# start PX4 simulator
+roslaunch uav_simulator px4_start.launch
+```
+
+
 ## IV. The Autonomy Modules
 This section introduces the funtionality of each autonomy module included in this framework and provides their links for further details.
 
