@@ -23,7 +23,7 @@ catkin_make
 ## II. Run Autonomy DEMO
 This section shows the most typical ones: **navigation**, **exploration**, and **inspection**. Note that the default environment and the flight parameters might be different from the demos shown as below. Please check [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator) for changing the simulation environments and [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for adjusting flight parameters.
 
-a. Before getting started, please make sure you are in the ```simulation``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for detailed explanations):
+a. Before getting started, please make sure you are in the ```simulation``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check the link for detailed explanations):
 ```
 cd path/to/autonomous_flight
 git branch
