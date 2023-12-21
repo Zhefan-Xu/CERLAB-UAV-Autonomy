@@ -126,6 +126,7 @@ roslaunch uav_simulator px4_start.launch
 Once you have tested the autonomous flight in the PX4 simulation, the real flight experiments will have exactly the same behavior as you saw in the simulation. The inputs required for this framework in the real flight experiments are:
  - ```The robot pose/odom```: Please make sure you have a SLAM/VIO system that can estimate the states of the robot.
  - ```The depth image```: The framework expects the depth image to detect objects and construct the map.
+
 Please be very careful about all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) and check all the parameters accordingly before the actual flight.
 
 
