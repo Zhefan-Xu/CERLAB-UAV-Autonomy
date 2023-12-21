@@ -5,8 +5,19 @@ Welcome to the **CERLAB UAV Autonomy Framework**, a versatile and modular framew
 
 ![intro](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/23a78d4f-a7a3-4c68-b80f-c6dbf6b0f090)
 
+## I. The Autonomy Modules
+The funtionality of each autonomy module included in this framework in alphabetical order:
+ - ```autonomous_flight```: The autonomous flight package integrating all other modules for various tasks.
+ - ```global_planner```: The global waypoint planner library for autonomous robots.
+ - ```trajectory_planner```: The trajectory olanning library for autonomous robots.
+ - ```map_manager```: The 3D mapping library for autonomous robots.
+ - ```uav_simulator```: The lightweight Gazebo/ROS-based simulator for unmanned aerial vehicles.
+ - ```time_optimizer```: The optimal trajectory time allocation library for autonomous robots.
+ - ```tracking_controller```: The trajectory tracking controller for autonomous robots.
+ - ```onboard_detector```: The dynamic obstacle detection and tracking (DODT) algorithm for autonomous robots.
+ - ```remote_control```: The Rviz configuration and launch files for easy visualization.
 
-## I. Installation Guide
+## II. Installation Guide
 This repo has been tested on ROS Melodic with Ubuntu 18.04 and ROS Noetic with Ubuntu 20.04 and it depends on the ROS packages: [octomap](https://wiki.ros.org/octomap), [mavros](https://wiki.ros.org/mavros), and [vision_msgs](https://wiki.ros.org/vision_msgs). Installing the package with the following commands:
 
 ```
@@ -26,7 +37,7 @@ git checkout simulation
 cd ~/catkin_ws
 catkin_make
 ```
-## II. Run Autonomy DEMO
+## III. Run Autonomy DEMO
 This section shows the most typical ones: **navigation**, **exploration**, and **inspection**. Note that the default environment and the flight parameters might be different from the demos shown as below. Please check [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator) for changing the simulation environments and [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for adjusting flight parameters.
 
 Before getting started, please make sure you are in the ```simulation``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check the link for detailed explanations):
@@ -102,7 +113,7 @@ The example inspection process is shown in the video demo as below:
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/0e580d08-7003-4732-a5b0-5d4041f7d3fd
 
 
-## III. PX4 Simulation & Real Flight 
+## IV. PX4 Simulation & Real Flight 
 This section talks about running this framework in the PX4-based simulation or conducting real flight experiments. Please first follow the PX4 simulation installation guide as provided in [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator).
 
 Before getting started, please make sure you are in the ```px4``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check the link for detailed explanations):
@@ -131,17 +142,6 @@ Once you have tested the flight in the PX4 simulation, the real flight experimen
 Check all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight)  accordingly before the actual flight!!!
 
 
-## IV. The Autonomy Modules
-The funtionality of each autonomy module included in this framework in alphabetical order:
- - ```autonomous_flight```: The autonomous flight package integrating all other modules for various tasks.
- - ```global_planner```: The global waypoint planner library for autonomous robots.
- - ```trajectory_planner```: The trajectory olanning library for autonomous robots.
- - ```map_manager```: The 3D mapping library for autonomous robots.
- - ```uav_simulator```: The lightweight Gazebo/ROS-based simulator for unmanned aerial vehicles.
- - ```time_optimizer```: The optimal trajectory time allocation library for autonomous robots.
- - ```tracking_controller```: The trajectory tracking controller for autonomous robots.
- - ```onboard_detector```: The dynamic obstacle detection and tracking (DODT) algorithm for autonomous robots.
- - ```remote_control```: The Rviz configuration and launch files for easy visualization.
 
 ## V. Citation and Reference:
 If you find this work useful, please cite the paper:
