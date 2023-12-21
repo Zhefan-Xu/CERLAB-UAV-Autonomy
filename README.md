@@ -102,6 +102,9 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/0e580d08-7003-4
 
 
 ## III. Real Flight & PX4 Simulation
+This section talks about running this framework in the PX4-based simulation or conducting real flight experiments. Please first follow the PX4 simulation installation guide as provided in [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator).
+
+
 
 ## IV. The Autonomy Modules
 This section introduces the funtionality of each autonomy module included in this framework and provides their links for further details.
