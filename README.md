@@ -41,6 +41,16 @@ catkin_make
 
 b. **Autonomous Navigation:**  Navigating to a given goal position and avoiding collisions.    
 
+```
+# start simulator
+roslaunch uav_simulator start.launch
+
+# open the Rviz visualization
+roslaunch remote_control dynamic_navigation.rviz # if your test env has dynamic obstacles
+
+# run the navigation program
+roslaunch autonomous_flight dynamic_navigation.launch # if your test env has dynamic obstacles
+```
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-43d0-a02c-8defa8eea12c
 
