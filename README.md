@@ -31,7 +31,7 @@ c. **Autonomous Inspection:**
 
 
 ## III. The Autonomy Modules
-
+This section introduces the funtionality of each autonomy module included in this framework and provides their links for further details.
 
 ## IV. Citation and Reference:
 If you find this work useful, please cite the paper:
