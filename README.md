@@ -20,3 +20,28 @@ git clone --recursive https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy.git
 cd ~/catkin_ws
 catkin_make
 ```
+## II. Run Autonomy DEMO
+There are several autonomous flight tasks that this repo can accomplish and here we show the most typical ones: **navigation**, **exploration**, and **inspection**:
+
+a. **Autonomous Navigation:**  
+
+b. **Autonomous Exploration:**
+
+c. **Autonomous Inspection:**
+
+
+## III. The Autonomy Modules
+
+
+## VI. Citation and Reference:
+If you find this work useful, please cite the paper:
+```
+@inproceedings{xu2023vision,
+  title={Vision-aided UAV navigation and dynamic obstacle avoidance using gradient-based B-spline trajectory optimization},
+  author={Xu, Zhefan and Xiu, Yumeng and Zhan, Xiaoyang and Chen, Baihan and Shimada, Kenji},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={1214--1220},
+  year={2023},
+  organization={IEEE}
+}
+```
