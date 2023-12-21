@@ -3,6 +3,8 @@ Welcome to the **CERLAB UAV Autonomy Framework**, a versatile and modular framew
 
 **Author**: [Zhefan Xu](https://zhefanxu.com/), Computational Engineering & Robotics Lab (CERLAB) at Carnegie Mellon University (CMU).
 
+**Email Contact**: zhefanx@andrew.cmu.edu
+
 ![intro](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/23a78d4f-a7a3-4c68-b80f-c6dbf6b0f090)
 
 ## I. The Autonomy Modules Introduction
