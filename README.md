@@ -21,7 +21,7 @@ cd ~/catkin_ws
 catkin_make
 ```
 ## II. Run Autonomy DEMO
-There are several autonomous flight tasks that this repo can accomplish and here we show the most typical ones: **navigation**, **exploration**, and **inspection**.
+There are several autonomous flight tasks that this repo can accomplish and here we show the most typical ones: **navigation**, **exploration**, and **inspection**. Please note that the default environment and the flight parameters might be different from the demo shown as below. Please check [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator) for how to change a simulation environment and [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for adjusting flight parameters.
 
 a. **Autonomous Navigation:**  
 
