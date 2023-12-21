@@ -83,7 +83,7 @@ The example exploration process is shown in the video demo as below:
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/e0d953de-a542-49c3-86ca-b44d77ff7653
 
 
-### c. **Autonomous Inspection: Navigating toward the given target and inspecting by zig-zag path.**
+### c. **Autonomous Inspection: Navigating to the target and inspecting it with a zig-zag path.**
 
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/0e580d08-7003-4732-a5b0-5d4041f7d3fd
