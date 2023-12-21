@@ -52,7 +52,7 @@ roslaunch remote_control dynamic_navigation.rviz # if your test env has dynamic 
 roslaunch autonomous_flight dynamic_navigation.launch # if your test env has dynamic obstacles
 ```
 
-Once the robot is hovering at the predefined height, you can use the ```2D Nav Goal``` to click a goal point in ```Rviz``` and you can see example results shown below:
+Once the robot is hovering at the predefined height (check the terminal output messages), you can use the ```2D Nav Goal``` to click a goal point in ```Rviz``` and you can see example results shown below:
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-43d0-a02c-8defa8eea12c
 
