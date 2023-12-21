@@ -76,9 +76,9 @@ roslaunch remote_control exploration.rviz
 
 # run the navigation program
 roslaunch autonomous_flight dynamic_exploration.launch
+```
 
 The example exploration process is shown in the video demo as below:
-```
 
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/e0d953de-a542-49c3-86ca-b44d77ff7653
 
