@@ -51,6 +51,7 @@ git branch
 # if the output says you are not in the simulation branch, please run the following (otherwise please ignore): 
 git checkout simulation
 cd ~/catkin_ws
+catkin_make clean # if you switch the branch for autonomous_flight
 catkin_make
 ```
 
@@ -127,6 +128,7 @@ git branch
 # if the output says you are not in the px4 branch, please run the following (otherwise please ignore): 
 git checkout px4
 cd ~/catkin_ws
+catkin_make clean # if you switch the branch for autonomous_flight
 catkin_make
 ```
 
