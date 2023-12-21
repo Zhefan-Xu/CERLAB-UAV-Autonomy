@@ -31,7 +31,15 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-4
 
 b. **Autonomous Exploration:**
 
+
+Uploading exploration_demo.mp4…
+
+
 c. **Autonomous Inspection:**
+
+
+https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/0e580d08-7003-4732-a5b0-5d4041f7d3fd
+
 
 
 ## III. The Autonomy Modules
