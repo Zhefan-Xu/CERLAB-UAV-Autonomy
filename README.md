@@ -1,3 +1,5 @@
+
+https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/8dc2a677-16d4-44b2-a927-6c41d2b8ea35
 # CERLAB UAV Autonomy Framework
 Welcome to the **CERLAB UAV Autonomy Framework**, a versatile and modular framework for autonomous unmanned aerial vehicles (UAVs). This framework comprises distinct components (simulator, perception, mapping, planning, and control) to achieve autonomous navigation, unknown exploration, and target inspection.
 
@@ -143,10 +145,18 @@ Once you have tested the flight in the PX4 simulation, the real flight experimen
 
 Check all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight)  accordingly before the actual flight!!!
 
-
-
+### c. Examples of Real Flight Experiments
+a. The example of real flight for autonomous navigation:
+  
 https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/f635a4c9-6996-44d2-85fe-5fecaed33054
 
+b. The example of real flight for autonomous exploration:
+  
+https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/ea838535-b052-4713-b1b2-4690bf4a7369
+
+c. The example of real flight for autonomous inspection:
+  
+https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/4878fc3a-528d-4c82-a621-71ffadc092ab
 
 
 
