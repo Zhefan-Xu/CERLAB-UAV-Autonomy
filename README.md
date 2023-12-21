@@ -5,17 +5,17 @@ Welcome to the **CERLAB UAV Autonomy Framework**, a versatile and modular framew
 
 ![intro](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/23a78d4f-a7a3-4c68-b80f-c6dbf6b0f090)
 
-## I. The Autonomy Modules
+## I. The Autonomy Modules Introduction
 The funtionality of each autonomy module included in this framework in alphabetical order:
- - ```autonomous_flight```: The autonomous flight package integrating all other modules for various tasks.
- - ```global_planner```: The global waypoint planner library for autonomous robots.
- - ```trajectory_planner```: The trajectory olanning library for autonomous robots.
- - ```map_manager```: The 3D mapping library for autonomous robots.
- - ```uav_simulator```: The lightweight Gazebo/ROS-based simulator for unmanned aerial vehicles.
- - ```time_optimizer```: The optimal trajectory time allocation library for autonomous robots.
- - ```tracking_controller```: The trajectory tracking controller for autonomous robots.
- - ```onboard_detector```: The dynamic obstacle detection and tracking (DODT) algorithm for autonomous robots.
- - ```remote_control```: The Rviz configuration and launch files for easy visualization.
+ - ```autonomous_flight```: The autonomous flight package integrating all other modules for various tasks. [\[details\]](https://github.com/Zhefan-Xu/autonomous_flight)
+ - ```global_planner```: The global waypoint planner library for autonomous robots. [\[details\]](https://github.com/Zhefan-Xu/global_planner)
+ - ```trajectory_planner```: The trajectory olanning library for autonomous robots. [\[details\]](https://github.com/Zhefan-Xu/trajectory_planner)
+ - ```map_manager```: The 3D mapping library for autonomous robots. [\[details\]](https://github.com/Zhefan-Xu/map_manager)
+ - ```uav_simulator```: The lightweight Gazebo/ROS-based simulator for unmanned aerial vehicles. [\[details\]](https://github.com/Zhefan-Xu/uav_simulator)
+ - ```time_optimizer```: The optimal trajectory time allocation library for autonomous robots. [\[details\]](https://github.com/Zhefan-Xu/time_optimizer)
+ - ```tracking_controller```: The trajectory tracking controller for autonomous robots. [\[details\]](https://github.com/Zhefan-Xu/tracking_controller)
+ - ```onboard_detector```: The dynamic obstacle detection and tracking algorithm for autonomous robots. [\[details\]](https://github.com/Zhefan-Xu/onboard_detector)
+ - ```remote_control```: The Rviz configuration and launch files for easy visualization. [\[details\]](https://github.com/Zhefan-Xu/remote_control)
 
 ## II. Installation Guide
 This repo has been tested on ROS Melodic with Ubuntu 18.04 and ROS Noetic with Ubuntu 20.04 and it depends on the ROS packages: [octomap](https://wiki.ros.org/octomap), [mavros](https://wiki.ros.org/mavros), and [vision_msgs](https://wiki.ros.org/vision_msgs). Installing the package with the following commands:
