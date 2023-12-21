@@ -132,7 +132,7 @@ Check all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu
 
 
 ## IV. The Autonomy Modules
-This section introduces the funtionality of each autonomy module included in this framework.
+The funtionality of each autonomy module included in this framework in alphabetical order:
  - ```autonomous_flight```: The autonomous flight package integrating all other modules for various tasks.
  - ```global_planner```: The global waypoint planner library for autonomous robots.
  - ```trajectory_planner```: The trajectory olanning library for autonomous robots.
