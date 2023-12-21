@@ -145,6 +145,11 @@ Check all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu
 
 
 
+https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/f635a4c9-6996-44d2-85fe-5fecaed33054
+
+
+
+
 ## V. Citation and Reference:
 If you find this work useful, please consider to cite our papers:
 - Zhefan Xu\*, Xiaoyang Zhan\*, Yumeng Xiu, Christopher Suzuki, Kenji Shimada, "Onboard dynamic-object detection and tracking for autonomous robot navigation with RGB-D camera”, IEEE Robotics and Automation Letters (RA-L), 2024. [\[paper\]](https://ieeexplore.ieee.org/document/10323166) [\[video\]](https://youtu.be/9dKX3BRnxyw).
