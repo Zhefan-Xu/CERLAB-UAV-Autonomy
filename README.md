@@ -59,7 +59,7 @@ catkin_make
 
 ```
 # start simulator
-roslaunch uav_simulator start.launch
+roslaunch uav_simulator start.launch # recommand to use the corridor env for your first trial
 
 # open the Rviz visualization
 roslaunch remote_control dynamic_navigation.rviz # if your test env has dynamic obstacles
@@ -85,7 +85,7 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-4
 
 ```
 # start simulator
-roslaunch uav_simulator start.launch
+roslaunch uav_simulator start.launch # recommand to use the floorplan2 env for your first trial
 
 # open the Rviz visualization
 roslaunch remote_control exploration.rviz 
@@ -103,7 +103,7 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/e0d953de-a542-4
 
 ```
 # start simulator
-roslaunch uav_simulator start.launch
+roslaunch uav_simulator start.launch # # recommand to use the tunnel_dynamic_1 env for your first trial
 
 # open the Rviz visualization
 roslaunch remote_control inspection.rviz 
