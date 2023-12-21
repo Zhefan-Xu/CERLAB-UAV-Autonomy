@@ -6,7 +6,7 @@ Welcome to the **CERLAB UAV Autonomy Framework**, a versatile and modular framew
 ![intro](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/23a78d4f-a7a3-4c68-b80f-c6dbf6b0f090)
 
 ## I. Installation Guide
-This repo has been tested on ROS Melodic with Ubuntu 18.04 and ROS Noetic with Ubuntu 20.04 and it only depends on the following ROS packages: [octomap](https://wiki.ros.org/octomap), [mavros](https://wiki.ros.org/mavros), and [vision_msgs](https://wiki.ros.org/vision_msgs). Please use the following commands for installation:
+This repo has been tested on ROS Melodic with Ubuntu 18.04 and ROS Noetic with Ubuntu 20.04 and it depends on the following ROS packages: [octomap](https://wiki.ros.org/octomap), [mavros](https://wiki.ros.org/mavros), and [vision_msgs](https://wiki.ros.org/vision_msgs). Installing this package using the following command:
 
 ```
 # step1: install dependencies
@@ -21,7 +21,7 @@ cd ~/catkin_ws
 catkin_make
 ```
 ## II. Run Autonomy DEMO
-There are several autonomous flight tasks and here we show the most typical ones: **navigation**, **exploration**, and **inspection**. Note that the default environment and the flight parameters might be different from the demos shown as below. Please check [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator) for changing the simulation environments and [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for adjusting flight parameters.
+This section shows the most typical ones: **navigation**, **exploration**, and **inspection**. Note that the default environment and the flight parameters might be different from the demos shown as below. Please check [uav_simulator](https://github.com/Zhefan-Xu/uav_simulator) for changing the simulation environments and [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for adjusting flight parameters.
 
 a. Before getting started, please make sure you are in the ```simulation``` branch of the submodule [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for the following demos (please check [autonomous_flight](https://github.com/Zhefan-Xu/autonomous_flight) for detailed explanations):
 ```
