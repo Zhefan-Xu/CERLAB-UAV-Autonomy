@@ -133,6 +133,15 @@ Check all the parameters in the [autonomous_flight](https://github.com/Zhefan-Xu
 
 ## IV. The Autonomy Modules
 This section introduces the funtionality of each autonomy module included in this framework.
+ - ```autonomous_flight```: The autonomous flight package integrating all other modules for various tasks.
+ - ```global_planner```: The global waypoint planner library for autonomous robots.
+ - ```trajectory_planner```: The trajectory olanning library for autonomous robots.
+ - ```map_manager```: The 3D mapping library for autonomous robots.
+ - ```uav_simulator```: The lightweight Gazebo/ROS-based simulator for unmanned aerial vehicles.
+ - ```time_optimizer```: The optimal trajectory time allocation library for autonomous robots.
+ - ```tracking_controller```: The trajectory tracking controller for autonomous robots.
+ - ```onboard_detector```: The dynamic obstacle detection and tracking (DODT) algorithm for autonomous robots.
+ - ```remote_control```: The Rviz configuration and launch files for easy visualization.
 
 ## V. Citation and Reference:
 If you find this work useful, please cite the paper:
