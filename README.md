@@ -7,6 +7,8 @@ Welcome to the **CERLAB UAV Autonomy Framework**, a versatile and modular framew
 
 ![intro](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/23a78d4f-a7a3-4c68-b80f-c6dbf6b0f090)
 
+If you find this work helpful, kindly show your support by giving us a free ⭐️. Your recognition is truly valued.
+
 ## I. The Autonomy Modules Introduction
 The funtionality of each autonomy module included in this framework in alphabetical order:
  - ```autonomous_flight```: The autonomous flight package integrating all other modules for various tasks. [details](https://github.com/Zhefan-Xu/autonomous_flight)
