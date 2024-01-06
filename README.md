@@ -69,7 +69,7 @@ catkin_make
 roslaunch uav_simulator start.launch # recommand to use the corridor env for your first trial
 
 # open the Rviz visualization
-roslaunch remote_control dynamic_navigation.rviz # if your test env has dynamic obstacles
+roslaunch remote_control dynamic_navigation_rviz.launch # if your test env has dynamic obstacles
 
 # run the navigation program
 roslaunch autonomous_flight dynamic_navigation.launch # if your test env has dynamic obstacles
@@ -77,7 +77,7 @@ roslaunch autonomous_flight dynamic_navigation.launch # if your test env has dyn
 # --------------------------------------------------------------------------------------
 # (alternatively, if your test env is purely static, you can run the following instead)
 # open the Rviz visualization
-roslaunch remote_control navigation.rviz # if your test env only has static obstacles
+roslaunch remote_control navigation_rviz.launch # if your test env only has static obstacles
 
 # run the navigation program
 roslaunch autonomous_flight navigation.launch # if your test env only has static obstacles
@@ -95,7 +95,7 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/31f4e6eb-857c-4
 roslaunch uav_simulator start.launch # recommand to use the floorplan2 env for your first trial
 
 # open the Rviz visualization
-roslaunch remote_control exploration.rviz 
+roslaunch remote_control exploration_rviz.launch 
 
 # run the navigation program
 roslaunch autonomous_flight dynamic_exploration.launch
@@ -113,7 +113,7 @@ https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/e0d953de-a542-4
 roslaunch uav_simulator start.launch # # recommand to use the tunnel_dynamic_1 env for your first trial
 
 # open the Rviz visualization
-roslaunch remote_control inspection.rviz 
+roslaunch remote_control inspection_rviz.launch 
 
 # run the navigation program
 roslaunch autonomous_flight dynamic_inspection.launch
