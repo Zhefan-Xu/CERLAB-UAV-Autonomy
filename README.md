@@ -5,6 +5,8 @@ Welcome to the **CERLAB UAV Autonomy Framework**, a versatile and modular framew
 
 **Contact Email**: zhefanx@andrew.cmu.edu
 
+**Video Tutorial**: [YouTube](https://youtu.be/sWTQ4cnQCIE?si=809MQPjWSI2Bq4rj), [BiliBili](https://www.bilibili.com/video/BV1KN4y1i7FV/?share_source=copy_web&vd_source=1333db331406abb1b5d4cece1e253427&t=0) (for China mainland)
+
 If you find this work helpful, kindly show your support by giving us a free ⭐️. Your recognition is truly valued.
 
 ![intro](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/23a78d4f-a7a3-4c68-b80f-c6dbf6b0f090)
