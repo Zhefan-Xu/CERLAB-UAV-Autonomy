@@ -12,8 +12,8 @@ If you find this work helpful, kindly show your support by giving us a free ‚≠êÔ
 ![intro](https://github.com/Zhefan-Xu/CERLAB-UAV-Autonomy/assets/55560905/23a78d4f-a7a3-4c68-b80f-c6dbf6b0f090)
 
 ## Table of Contents
-1. [The Autonomy Modules Introduction](##i.-the-autonomy-modules-introduction)
-2. [Installation Guide](#ii-installation-guide)
+1. [The Autonomy Modules Introduction](#I-The-Autonomy-Modules-Introduction)
+2. [Installation Guide](#II-Installation-Guide)
 3. [Run Autonomy DEMO](##III.-Run-Autonomy-DEMO)
 4. [PX4 Simulation & Real Flight](##IV.-PX4-Simulation-&-Real-Flight)
 5. [Citation and Reference](##V.-Citation-and-Reference)
