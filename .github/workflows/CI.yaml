@@ -41,4 +41,5 @@ jobs:
           mkdir -p ~/catkin_ws/src
           mv $GITHUB_WORKSPACE ~/catkin_ws/src/
           cd ~/catkin_ws
+          source /opt/ros/${ROS_DISTRO}/setup.bash
           catkin_make
