@@ -21,7 +21,7 @@ jobs:
       ROS_CI_DESKTOP: "`lsb_release -cs`"
       ROS_DISTRO: melodic
     steps:
-      - name: Update Git
+      - name: Install Git 2.18
         run: |
           sudo add-apt-repository ppa:git-core/ppa -y
           sudo apt-get update
