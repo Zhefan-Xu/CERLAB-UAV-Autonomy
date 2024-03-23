@@ -38,6 +38,7 @@ jobs:
 
       - name: catkin make
         run: |
-          ln -s $GITHUB_WORKSPACE ~/catkin_ws/src/CERLAB-UAV-Autonomy
+          mkdir -p ~/catkin_ws/src
+          mv $GITHUB_WORKSPACE ~/catkin_ws/src/
           cd ~/catkin_ws
           catkin_make
