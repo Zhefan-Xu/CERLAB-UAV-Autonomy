@@ -1,4 +1,4 @@
-name: Noetic Ubuntu 20.04
+name: Ubuntu 18.04|ROS Melodic
 
 on: 
   push: 
@@ -10,26 +10,26 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-18.04
     env:
       ROS_CI_DESKTOP: "`lsb_release -cs`"
-      ROS_DISTRO: noetic
+      ROS_DISTRO: melodic
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: recursive
-      - name: Install ROS
+      - name: Install ROS Melodic
         run: |
           sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
           sudo apt install curl
           curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
           sudo apt update
-          sudo apt install ros-noetic-desktop-full
+          sudo apt install ros-melodic-desktop-full
           source /opt/ros/${ROS_DISTRO}/setup.bash
       - name: Install ROS packages with rosdep
         run: |
-          sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-          sudo apt install python3-rosdep
+          sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+          sudo apt install python-rosdep
           sudo rosdep init
           rosdep update
       - name: Install dependencies
