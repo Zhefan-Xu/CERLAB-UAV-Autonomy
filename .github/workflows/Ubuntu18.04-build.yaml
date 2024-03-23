@@ -23,7 +23,7 @@ jobs:
       ROS_CI_DESKTOP: "`lsb_release -cs`"
       ROS_DISTRO: melodic
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
           submodule: recursive
 
