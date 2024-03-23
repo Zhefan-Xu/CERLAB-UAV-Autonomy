@@ -16,8 +16,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: ubuntu:18.04
+    container: ubuntu:18.04
     env:
       ROS_CI_DESKTOP: "`lsb_release -cs`"
       ROS_DISTRO: melodic
