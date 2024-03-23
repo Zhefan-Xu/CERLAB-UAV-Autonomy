@@ -1,4 +1,4 @@
-name: Ubuntu 20.04 Noetic
+name: Ubuntu20.04 Noetic
 
 on: 
   push: 

@@ -1,4 +1,4 @@
-name: Ubuntu 18.04 Melodic
+name: Ubuntu18.04 Melodic
 
 on: 
   push: 
