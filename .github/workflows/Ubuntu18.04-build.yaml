@@ -31,7 +31,7 @@ jobs:
       - name: Add Git repository manually
         run: |
           echo "deb http://ppa.launchpad.net/git-core/ppa/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/git.list
-          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E1DD270288B4E6030699E45FA1715D88E1DF1F24
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E1DD270288B4E6030699E45FA1715D88E1DF1F24
           sudo apt-get update
 
       - name: Install Git 2.18
