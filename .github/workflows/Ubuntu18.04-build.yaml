@@ -1,4 +1,4 @@
-name: Ubuntu 18.04|ROS Melodic
+name: Ubuntu 18.04 Melodic
 
 on: 
   push: 
@@ -6,7 +6,7 @@ on:
       - main
   pull_request:
     branches:
-      -main
+      - main
 
 jobs:
   build:
