@@ -27,17 +27,17 @@ jobs:
           sudo apt install ros-noetic-desktop-full
           source /opt/ros/${ROS_DISTRO}/setup.bash
       - name: Install ROS packages with rosdep
-        runs: |
+        run: |
           sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
           sudo apt install python3-rosdep
           sudo rosdep init
           rosdep update
       - name: Install dependencies
-        runs: |
+        run: |
           sudo apt install -y ros-${ROS_DISTRO}-octomap* ros-${ROS_DISTRO}-mavros* ros-${ROS_DISTRO}-vision-msgs
 
       - name: catkin make
-        runs: |
+        run: |
           ln -s $GITHUB_WORKSPACE ~/catkin_ws/src/CERLAB-UAV-Autonomy
           cd ~/catkin_ws
           catkin_make
