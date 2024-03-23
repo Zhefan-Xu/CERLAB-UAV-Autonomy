@@ -60,7 +60,7 @@ jobs:
 
       - name: Set up catkin workspace
         run: |
-          sudo mkdir -p /root/catkin_ws/src
+          sudo mkdir -p ~/catkin_ws/src
           sudo ln -s $GITHUB_WORKSPACE ~/catkin_ws/src/
           cd ~/catkin_ws
           source /opt/ros/${ROS_DISTRO}/setup.bash
