@@ -23,18 +23,21 @@ jobs:
       ROS_CI_DESKTOP: "`lsb_release -cs`"
       ROS_DISTRO: melodic
     steps:
-      - name: Install sudo
+      - name: Install sudo and software-properties-common
         run: |
           apt-get update
-          apt-get install -y sudo
+          apt-get install -y sudo software-properties-common
+
+      - name: Add Git repository manually
+        run: |
+          echo "deb http://ppa.launchpad.net/git-core/ppa/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/git.list
+          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E1DD270288B4E6030699E45FA1715D88E1DF1F24
+          sudo apt-get update
+
       - name: Install Git 2.18
         run: |
-          sudo add-apt-repository ppa:git-core/ppa -y
-          sudo apt-get update
-          sudo apt-get install git -y
-      - uses: actions/checkout@v2
-        with:
-          submodule: recursive
+          sudo apt-get install -y git
+
       - name: Install ROS Melodic
         run: |
           sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
