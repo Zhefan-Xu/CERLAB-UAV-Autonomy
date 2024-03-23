@@ -12,10 +12,10 @@ on:
     paths-ignore:
       - '**/README.md'
 
-
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+    container: ubuntu:18.04
     env:
       ROS_CI_DESKTOP: "`lsb_release -cs`"
       ROS_DISTRO: melodic
@@ -33,8 +33,8 @@ jobs:
           source /opt/ros/${ROS_DISTRO}/setup.bash
       - name: Install ROS packages with rosdep
         run: |
-          sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
-          sudo apt install python-rosdep
+          sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+          sudo apt install python3-rosdep
           sudo rosdep init
           rosdep update
       - name: Install dependencies
