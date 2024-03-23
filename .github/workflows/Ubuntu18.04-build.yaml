@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y \
+          sudo DEBIAN_FRONTEND=noninteractive apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
           curl \
           python3-rosdep \
           python3-rosinstall \
@@ -50,18 +50,18 @@ jobs:
         run: sudo apt-get update
 
       - name: Install ROS Melodic
-        run: sudo apt-get install -y ros-melodic-desktop-full
+        run: sudo DEBIAN_FRONTEND=noninteractive apt-get install -y ros-melodic-desktop-full
 
       - name: Initialize rosdep
         run: yes | sudo rosdep init && sudo rosdep update
 
       - name: Install additional ROS packages
-        run: sudo apt-get install -y ros-${ROS_DISTRO}-octomap* ros-${ROS_DISTRO}-mavros* ros-${ROS_DISTRO}-vision-msgs
+        run: sudo DEBIAN_FRONTEND=noninteractive apt-get install -y ros-${ROS_DISTRO}-octomap* ros-${ROS_DISTRO}-mavros* ros-${ROS_DISTRO}-vision-msgs
 
       - name: Set up catkin workspace
         run: |
           sudo mkdir -p /root/catkin_ws/src
-          sudo ln -s $GITHUB_WORKSPACE /root/catkin_ws/src/
-          cd /root/catkin_ws
+          sudo ln -s $GITHUB_WORKSPACE ~/catkin_ws/src/
+          cd ~/catkin_ws
           source /opt/ros/${ROS_DISTRO}/setup.bash
           catkin_make
