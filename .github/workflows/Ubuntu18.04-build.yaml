@@ -24,6 +24,11 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: recursive
+      - name: git update
+        run: |
+          sudo add-apt-repository ppa:git-core/ppa -y
+          sudo apt-get update
+          sudo apt-get install git -y
       - name: Install ROS Melodic
         run: |
           sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
