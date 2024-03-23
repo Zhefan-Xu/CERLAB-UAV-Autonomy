@@ -37,6 +37,7 @@ jobs:
           sudo apt install -y ros-${ROS_DISTRO}-octomap* ros-${ROS_DISTRO}-mavros* ros-${ROS_DISTRO}-vision-msgs
 
       - name: catkin make
-        ln -s $GITHUB_WORKSPACE ~/catkin_ws/src/CERLAB-UAV-Autonomy
-        cd ~/catkin_ws
-        catkin_make
+        runs: |
+          ln -s $GITHUB_WORKSPACE ~/catkin_ws/src/CERLAB-UAV-Autonomy
+          cd ~/catkin_ws
+          catkin_make
