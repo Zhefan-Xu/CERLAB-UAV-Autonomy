@@ -20,7 +20,7 @@ If you find this work helpful, kindly show your support by giving us a free ‚≠êÔ
 
 ## News
 
-* **2024-01-10:** The GitHub code, video demos, video tutorial and relavant papers for our autonomous UAV framework are released. The author will actively maintain and update this repo!
+* **2024-01-10:** The GitHub code, video demos, video tutorials and relavant papers for our autonomous UAV framework are released. The authors will actively maintain and update this repo!
 
 ## Table of Contents
 1. [The Autonomy Modules Introduction](#I-The-Autonomy-Modules-Introduction)
