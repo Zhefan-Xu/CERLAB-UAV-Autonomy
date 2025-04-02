@@ -39,16 +39,6 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt install -y ros-${ROS_DISTRO}-octomap* ros-${ROS_DISTRO}-mavros* ros-${ROS_DISTRO}-vision-msgs
-      - name: Install CMake
-        run: |
-          sudo apt update
-          sudo apt install -y wget
-          wget https://github.com/Kitware/CMake/releases/download/v3.20.0/cmake-3.20.0-linux-x86_64.sh
-          sudo mkdir -p /opt/cmake
-          sudo sh cmake-3.20.0-linux-x86_64.sh --skip-license --prefix=/opt/cmake
-          if [ -L /usr/local/bin/cmake ]; then sudo rm /usr/local/bin/cmake; fi
-          sudo ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
-
       - name: catkin make
         run: |
           mkdir -p ~/catkin_ws/src
